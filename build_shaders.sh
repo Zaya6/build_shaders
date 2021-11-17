@@ -2,8 +2,8 @@
 
 SOURCE="${1:-shaders}" # source directory to find shaders
 DESTINATION="${2:-include/shaders}" # Output directory
-USE_COLOR="${3:-true}"
-MAKE_DESTINATION=true
+MAKE_DESTINATION="${3:-true}"
+USE_COLOR="${4:-true}"
 
 if $USE_COLOR; then
     CYAN="\033[1;36m"
