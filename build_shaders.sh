@@ -47,10 +47,10 @@ for shaderFile in $SOURCE/*; do
         echo -e "#ifndef $define\n#define $define" > "$newFile"
 
         # add variable name
-        echo -e "\nstatic const char* shader_$name = \"\"" >> "$newFile"
+        echo -e "\nstatic const char* shader_src_$name = \"\"" >> "$newFile"
         
         # loop through lines of shader text, wraping lines in " and \n"
-        while read p; do
+        while read -r p; do
             echo "\"$p\n\"" >> "$newFile"
         done <$shaderFile
 
