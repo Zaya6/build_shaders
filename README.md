@@ -1,2 +1,2 @@
 # build_shaders
-Bash script to convert shaders into header files
+A simple bash script to convert shaders into header files for inclusion with your program binary.
