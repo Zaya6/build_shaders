@@ -109,4 +109,4 @@ static const char* shader_src_basic_vert = ""
 empty lines are perserved to aid in debugging.
 
 ## You Should know...
-Always put a newline at the end of your shader code or the ending brace "}" will be excluded, or whatever else you have at the end. This seems to be a behavior of the read command which uses "\n" as the delimiter to return a line. No delimiter, no returned line.
+Always put a newline at the end of your shader code or the ending brace "}" will be excluded, or whatever else you have at the end. This seems to be a behavior of the read command which uses "\n" as the delimiter to return a line. No delimiter, no line.
